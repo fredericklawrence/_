@@ -3,17 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>My Enhanced Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            padding: 0.8em 1em;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 1em;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul.fruits {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul.fruits li {
+            margin: 0.5em 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Simple HTML Page</h1>
-    <p>This is a paragraph of text on my simple webpage. You can add more text here.</p>
 
-    <h2>My Favorite Fruits</h2>
+<header>
+    <h1>Welcome to My Enhanced Webpage</h1>
+</header>
+
+<nav>
     <ul>
-        <li>Apple</li>
-        <li>Banana</li>
-        <li>Cherry</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#fruits">Favorite Fruits</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
+</nav>
+
+<main>
+    <section id="home">
+        <p>This is an improved version of my simple webpage. Now it has better styling and more content.</p>
+    </section>
+
+    <section id="fruits">
+        <h2>My Favorite Fruits</h2>
+        <ul class="fruits">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>This site is hosted on <a href="https://github.com/">GitHub</a>.</p>
+</footer>
+
 </body>
 </html>
