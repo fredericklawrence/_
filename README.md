@@ -1,1 +1,1 @@
-Index.html: https://fredericklawrence.github.io/fredericklawrence.com/
+https://fredericklawrence.github.io/github-hosted-page/
