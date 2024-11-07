@@ -1,8 +1,13 @@
-/* Keep existing styles from lines 1-200 */
-startLine: 1
-endLine: 200
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+}
 
-/* Add these new styles at the end */
 .cursor-trail {
     position: fixed;
     width: 5px;
@@ -25,7 +30,7 @@ endLine: 200
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('assets/images/noise.png');
+    background: url('assets/images/static.png');
     opacity: 0.05;
     z-index: -1;
     pointer-events: none;
